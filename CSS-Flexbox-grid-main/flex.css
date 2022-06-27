@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box
+}
+
+.top{
+    width:70%;
+    height:500px;
+    margin:auto;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+}
+@media  screen and (max-width:1440px)
+{
+    .top{
+        width:70%;
+    }
+
+
+}
+@media screen and (max-width:375px){
+    .top{
+        flex-direction:column;
+        width:100%;
+        margin:auto;
+        align-items:left;
+    }
+    
+}
+
+.Sedans{
+    height: auto;
+    width:40%;
+    padding: 30px;
+    background-color: hsl(31, 77%, 52%);
+
+}
+.Suvs{
+    height: auto;
+     width:40%;
+    padding: 30px;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    height: auto;
+    width:40%;
+    padding:30px;
+    background-color:hsl(179, 100%, 13%);
+}
+p{
+    
+    font-size:12px;
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsl(0, 0%, 95%);
+
+}
+h1{
+    color:hsl(0, 0%, 95%);
+    padding:20px 0px 20px 0px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+button{
+    
+    background-color: transparent; 
+    border-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(0, 0%, 95%);
+    border-radius: 40px;
+    padding:10px 20px 10px 20px;
+    margin-bottom:auto;
+    margin-top: 80px;
+    
+}
+.suv:hover{
+    background-color:hsl(0, 0%, 95%);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(184, 100%, 22%);
+    border-radius: 40px;
+    padding:10px 20px 10px 20px;
+    margin-bottom:auto;
+    margin-top: 80px;
+}
+.lux:hover{
+    background-color:hsl(0, 0%, 95%);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(179, 100%, 13%);
+    border-radius: 40px;
+    padding:10px 20px 10px 20px;
+    margin-bottom:auto;
+    margin-top: 80px;
+}
+.sed:hover{
+    background-color:hsl(0, 0%, 95%);
+    border-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(31, 77%, 52%);
+    border-radius: 40px;
+    padding:10px 20px 10px 20px;
+    margin-bottom:auto;
+    margin-top: 80px;
+}
+/* navigation */
+nav{
+    
+    margin-top:10px;
+    padding:30px;
+    font-size:large;
+    
+}
+
+a:hover{
+    color:rgb(15, 6, 6);
+    font: weight 500px; 
+    background-color: azure;
+    padding:12px;
+
+}
